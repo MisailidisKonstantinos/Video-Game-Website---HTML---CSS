@@ -1,0 +1,77 @@
+
+            body{
+                margin: 0;
+                background-color: black;
+                font-family: cursive; 
+                color: red;
+            }
+            
+            p{                
+                width: 100%;
+            }
+
+            .menu{
+                overflow: hidden;
+                background-color: #787878;
+                width: 100%;
+                font-family: cursive;
+                font-weight: bold;
+            }
+            
+            .menu a{
+                float: left;
+                display: block;
+                border: 1px;
+                text-align: center;
+                color: #a02e2e;
+                padding-bottom: 10px;
+                padding-top: 10px;
+                width: 16.6%               
+            }
+            
+            .menu a:hover{
+                font-size: 20px;
+                background-color: #778899;
+                color: #cc0000;
+            }
+            
+            .imgleft{
+                float: left;
+            }
+            
+            .imgright{
+                float: right;
+            }
+                        
+            .yt{
+                color:red;
+            }
+            
+            .yt a{
+                color:red;
+            }
+            
+            .yt a:visited{
+                color: #FF4500;
+            }
+            
+            .rHome{
+                color: red;
+                font-size: 16px;
+                text-align: center;
+            }
+            
+            .rHome a:visited{
+                color: #FF4500;
+            }
+            
+            .list{
+                font-size: 18px;
+                color: red;
+            }
+            
+            @media screen and (max-width: 600px){
+                #featured p{
+                    width:100%;
+                }
+            }
